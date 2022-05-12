@@ -1,0 +1,1192 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/***************project-header part start***************/
+.project-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 10px 0;
+    transition: all 1s;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+    font-size: 13px;
+}
+
+/***************project-header part end***************/
+/***************banner section start***************/
+.banner .carousel-caption {
+    top: 31%;
+    bottom: 0;
+}
+
+.banner .carousel-caption h1 {
+    font-size: 56px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.banner .carousel-caption p {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 40px;
+}
+
+.banner-button {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #ccad52;
+    padding: 11px 27px;
+}
+
+.banner-button:hover {
+    color: #fff;
+}
+
+.banner .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.banner .carousel-indicators .active {
+    background-color: #ccad52;
+}
+
+/***************banner section end***************/
+
+/***************about section start***************/
+.about {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.about-headings {
+    padding-bottom: 65px;
+}
+
+.about-headings h4 {
+    background-color: #ccad52;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 26px 42px;
+}
+
+.about-box .about-image {
+    width: 100%;
+}
+
+.about-box h3 {
+    font-size: 32px;
+    font-family: 'PT Serif', serif;
+    color: #333333;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.about-box h3 span {
+    color: #ccad52;
+}
+
+.about-box h3::after {
+    position: absolute;
+    width: 85px;
+    height: 2px;
+    background-color: #ccad52;
+    content: "";
+    top: 45px;
+    left: 0;
+}
+
+.about-box p {
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(120, 120, 120, 0.8);
+    padding-bottom: 25px;
+}
+
+/***************about section end***************/
+
+/***************service section start***************/
+.service {
+    background-color: #f6f6f6;
+    padding: 100px 0;
+}
+.service-headings {
+    padding-bottom: 65px;
+}
+
+.service-headings h4 {
+    background-color: #ccad52;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 26px 42px;
+}
+.service-box {
+    background-color: #fff;
+    padding: 40px 0px;
+    transition: all 0.5s;
+}
+
+.service-box h6 {
+    color: #333333;
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    padding: 30px 0px 20px;
+    transition: all 0.5s;
+}
+
+.service-box p {
+    color: rgba(120, 120, 120, 1);
+    font-size: 12px;
+    line-height: 23px;
+    padding: 0 38px;
+    transition: all 0.5s;
+}
+
+.service-icon {
+    background-color: #ccad52;
+    display: inline-block;
+    padding: 20px 22px;
+    transition: all 0.5s;
+}
+
+.service-box:hover {
+    background-color: #ccad52;
+}
+
+.service-box:hover h6 {
+    color: #fff;
+}
+
+.service-box:hover p {
+    color: #fff;
+}
+
+.service-box:hover .service-icon svg path {
+    fill: #ccad52;
+}
+
+.service-box:hover .service-icon {
+    background-color: #fff;
+}
+
+
+
+/***************service section end***************/
+
+/***************menu section start***************/
+.menu {
+    background-color: #fff;
+    padding: 100px 0;
+}
+.menu-headings {
+    padding-bottom: 65px;
+}
+
+.menu-headings h4 {
+    background-color: #ccad52;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 26px 42px;
+}
+.menu-list {
+    padding-bottom: 25px;
+}
+
+.menu-list li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.menu-list li a {
+    cursor: pointer;
+    color: #333333;
+    font-family: 'PT Serif', serif;
+}
+
+
+.menu-list .active {
+    color: #ccad52;
+}
+.menu-list li a:hover {
+    color: #ccad52;
+}
+
+.menu-content-main:not(#menuContent1) {
+    display: none;
+}
+
+.menu-box {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+    transition: all 1s;
+}
+.menu-box-info {
+    position: absolute;
+    background-color: rgba(204, 173, 82, 0.8);
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    transition: all 1s;
+}
+.menu-box-info h5 {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    padding: 8px 0;
+}
+.menu-box:hover .menu-box-info {
+    left: 0;
+    right: 0;
+}
+/***************menu section end***************/
+
+/***************chefs section start***************/
+.chefs {
+    background-color: #f6f6f6;
+    padding: 100px 0;
+}
+.chefs-headings {
+    padding-bottom: 65px;
+}
+
+.chefs-headings h4 {
+    background-color: #ccad52;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 26px 42px;
+}
+
+/***************chefs section end***************/
+
+/***************reservation section start***************/
+.reservation {
+    background-image: url(../images/reservation-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.reservation::before {
+    position: absolute;
+    background-color: #000;
+    opacity: 0.8;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.reservation-headings {
+    padding-bottom: 65px;
+    z-index: 1;
+    position: relative;
+}
+
+.reservation-headings h4 {
+    background-color: #ccad52;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 26px 42px;
+}
+
+.reservation-form {
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.form-control {
+    background-color: #f6f6f6;
+    border-color: #f6f6f6;
+    padding: 12px 15px;
+    margin: 10px 0;
+    color: #707275;
+}
+
+.reservation-button {
+    color: #fff;
+    background-color: #ccad52;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border: #ccad52;
+}
+
+/***************reservation section end***************/
+/***************gallery section start***************/
+.gallery {
+    background-color: #fff;
+    padding: 100px 0;
+}
+.gallery-headings {
+    padding-bottom: 65px;
+}
+
+.gallery-headings h4 {
+    background-color: #ccad52;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 26px 42px;
+}
+.gallery-box {
+    margin-bottom: 25px;
+}
+/***************gallery section end***************/
+/***************testimonials section start***************/
+.testimonials {
+    background-image: url(../images/testimonials-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+}
+.testimonials::before {
+    position: absolute;
+    background-color: #000;
+    opacity: 0.8;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.testimonials-headings {
+    padding-bottom: 65px;
+    z-index: 1;
+    position: relative;
+}
+
+.testimonials-headings h4 {
+    background-color: #ccad52;
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 26px 42px;
+}
+.testimonials-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+    position: relative;
+   padding: 28px 34px;
+margin: 0 8%;
+}
+.testimonials-box p {
+    color: #333333;
+    font-size: 15px;
+    line-height: 28px;
+    font-style: italic;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 40px;
+}
+.testimonials-box h6 {
+    color: #333333;
+    padding-top: 24px;
+}
+
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot.active:hover span {
+    background: rgb(204, 173, 82);
+}
+.owl-theme .owl-dots .owl-dot span {
+    padding: 8px;
+}
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: rgba(255, 255, 255);
+}
+/***************testimonials section end***************/
+
+/***************project-footer section start***************/
+.top-footer {
+    background-color: #171b1e;
+    padding: 50px 0;
+}
+.top-footer h3 {
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+.top-footer p {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 10px;
+}
+.opening-time li {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 10px;
+}
+.opening-time li span {
+    color: #aaaaaa;
+}
+.footer-form input {
+    padding: 12px 10px;
+    color: #aaaaaa;
+    font-size: 15px;
+    font-style: italic;
+    background-color: #121315;
+    width: 80%;
+    border: #121315;
+}
+.footer-button {
+    background-color: #121315;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 12px 20px;
+    border: #121315;
+}
+.social {
+    padding-top: 50px;
+}
+.social li {
+    padding-right: 10px;
+}
+.social li a {
+    color: #aaaaaa;
+    font-size: 18px;
+    background-color: #121315;
+}
+.facebook {
+    padding: 11px 18px;
+}
+.instagram {
+    padding: 10px 16px;
+}
+.twitter {
+    padding: 11px 16px;
+}
+.youtube {
+    padding: 11px 15px;
+}
+.pinterest {
+    padding: 11px 17px;
+}
+.social li a:hover {
+    color: #fff;
+    background-color: #ccad52;
+}
+/***************project-footer section end***************/
+
+@media only screen and (max-width: 1199px) {
+
+    .header-logo {
+        width: 95%;
+    }
+    .navbar-light .navbar-nav .nav-link.active {
+        font-size: 12px;
+    }
+    .banner .carousel-caption h1 {
+        font-size: 48px;
+        padding-bottom: 16px;
+    }
+    .banner .carousel-caption p {
+        font-size: 13px;
+        line-height: 22px;
+        padding-bottom: 35px;
+    }
+    .banner-button {
+        font-size: 13px;
+        padding: 11px 27px;
+    }
+    .banner .carousel-caption {
+        top: 34%;
+    }
+    .about-headings h4, .service-headings h4, .menu-headings h4, .chefs-headings h4, .reservation-headings h4, .gallery-headings h4, .testimonials-headings h4 {
+        font-size: 20px;
+        padding: 24px 38px;
+    }
+    .service-box p {
+        font-size: 12px;
+        line-height: 22px;
+        padding: 0 20px;
+    }
+    .service-box h6 {
+        font-size: 16px;
+        padding: 28px 0px 18px;
+    }
+    .reservation-form {
+        width: 85%;
+        padding: 35px;
+    }
+    .form-control {
+        padding: 12px 15px;
+        margin: 10px 0;
+        font-size: 15px;
+    }
+    .testimonials-box {
+        padding: 25px 31px;
+        margin: 0 6%;
+    }
+    .top-footer h3 {
+        font-size: 22px;
+        padding-bottom: 28px;
+    }
+    .social li a {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 1145px) {
+
+    .banner .carousel-caption h1 {
+        font-size: 45px;
+        padding-bottom: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 1071px) {
+
+    .banner .carousel-caption h1 {
+        font-size: 42px;
+        padding-bottom: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .header-logo {
+        width: 85%;
+    }
+
+    .carousel-caption {
+        right: 10%;
+        left: 10%;
+    }
+    .banner .carousel-caption h1 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .banner-button {
+        font-size: 12px;
+        padding: 10px 22px;
+    }
+    .about-headings h4, .service-headings h4, .menu-headings h4, .chefs-headings h4, .reservation-headings h4, .gallery-headings h4, .testimonials-headings h4 {
+        font-size: 19px;
+        padding: 22px 34px;
+    }
+    .about-headings, .service-headings, .menu-headings, .chefs-headings, .reservation-headings, .gallery-headings, .testimonials-headings  {
+        padding-bottom: 58px;
+    }
+
+    .banner .carousel-indicators [data-bs-target] {
+        width: 14px;
+        height: 14px;
+    }
+    .about-box h3 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .about-box h3::after {
+        width: 80px;
+        height: 2px;
+        top: 44px;
+    }
+    .about-box p {
+        font-size: 13px;
+        line-height: 24px;
+        padding-bottom: 12px;
+    }
+    .top-footer h3 {
+        font-size: 21px;
+        padding-bottom: 24px;
+    }
+    .top-footer p {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .opening-time li {
+        font-size: 13px;
+        padding-bottom: 9px;
+    }
+    .footer-form input {
+        padding: 11px 10px;
+        font-size: 14px;
+        width: 80%;
+    }
+    .footer-button {
+        font-size: 14px;
+        padding: 11px 20px;
+    }
+    .social {
+        padding-top: 40px;
+    }
+    .social li a {
+        font-size: 16px;
+    }
+    .testimonials-box p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-bottom: 24px;
+    }
+    .testimonials-box h6 {
+        padding-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .service-box p {
+        font-size: 12px;
+        line-height: 22px;
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width: 991px) {
+
+    .menu-list li {
+        padding: 0 15px;
+        font-size: 15px;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        background-color: #ccad52;
+    }
+    .navbar-nav {
+        margin-top: 15px;
+        background-color: rgba(204, 173, 82, 0.9);
+        padding: 0 10px;
+    }
+    .nav-link {
+        padding: 6px 10px;
+    }
+    .about-headings h4, .service-headings h4, .menu-headings h4, .chefs-headings h4, .reservation-headings h4, .gallery-headings h4, .testimonials-headings h4 {
+        font-size: 17px;
+        padding: 22px 34px;
+    }
+    .about-box h3 {
+        font-size: 26px;
+        padding-bottom: 26px;
+    }
+    .about-box h3::after {
+        width: 70px;
+        height: 2px;
+        top: 38px;
+    }
+    .about-box p {
+        font-size: 11px;
+        line-height: 21px;
+        padding-bottom: 8px;
+    }
+
+    .service-box h6 {
+        font-size: 14px;
+        padding: 22px 0px 12px;
+    }
+    .service-box p {
+        font-size: 11px;
+        line-height: 20px;
+        padding: 0 5px;
+    }
+    .service-box {
+        padding: 25px 0px;
+    }
+    .reservation-form {
+        width: 100%;
+        padding: 18px;
+    }
+    .form-control {
+        padding: 11px 12px;
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    .testimonials-box {
+        padding: 20px 25px;
+        margin: 0;
+    }
+    .testimonials-box p {
+        font-size: 13px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+    .testimonials-box h6 {
+        padding-top: 16px;
+        font-size: 15px;
+    }
+    .top-footer h3 {
+        font-size: 19px;
+        padding-bottom: 19px;
+    }
+    .top-footer p {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .footer-form input {
+        padding: 9px 10px;
+        font-size: 12px;
+        width: 80%;
+    }
+    .footer-button {
+        font-size: 12px;
+        padding: 9px 15px;
+    }
+    .social li a {
+        font-size: 14px;
+        background: none;
+    }
+    .social li a:hover {
+        background: none;
+    }
+    .social li {
+        padding-right: 18px;
+    }
+    .facebook {
+        padding: 0;
+    }
+    .instagram {
+        padding: 0;
+    }
+    .twitter {
+        padding: 0;
+    }
+    .youtube {
+        padding: 0;
+    }
+    .pinterest {
+        padding: 0;
+    }
+    .opening-time li {
+        font-size: 12px;
+        padding-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+
+    .banner .carousel-caption p {
+        display: none;
+    }
+    .banner .carousel-caption h1 {
+        font-size: 36px;
+        padding-bottom: 44px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar-toggler-icon {
+        width: 1.2em;
+        height: 1.4em;
+    }
+    .banner .carousel-caption h1 {
+        font-size: 35px;
+        padding-bottom: 32px;
+    }
+    .banner-button {
+        font-size: 11px;
+        padding: 8px 16px;
+    }
+    .banner .carousel-indicators {
+        margin-bottom: 0;
+    }
+    .banner .carousel-indicators [data-bs-target] {
+        width: 12px;
+        height: 12px;
+    }
+    .banner .carousel-caption {
+        top: 38%;
+    }
+    .navbar-light .navbar-nav .nav-link.active {
+        font-size: 12px;
+        padding: 5px 0;
+    }
+    .about-headings h4, .service-headings h4, .menu-headings h4, .chefs-headings h4, .reservation-headings h4, .gallery-headings h4, .testimonials-headings h4 {
+        font-size: 17px;
+        padding: 20px 32px;
+    }
+    .about-box h3 {
+        font-size: 25px;
+        padding-bottom: 26px;
+    }
+    .about-box h3::after {
+        width: 65px;
+        height: 2px;
+        top: 35px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .banner .carousel-caption h1 {
+    font-size: 34px;
+    padding-bottom: 25px;
+    }
+    .banner .carousel-caption {
+        top: 42%;
+    }
+    .about-headings h4, .service-headings h4, .menu-headings h4, .chefs-headings h4, .reservation-headings h4, .gallery-headings h4, .testimonials-headings h4 {
+        font-size: 16px;
+        padding: 18px 28px;
+    }
+    .about-headings, .service-headings, .menu-headings, .chefs-headings, .reservation-headings, .gallery-headings, .testimonials-headings {
+        padding-bottom: 45px;
+    }
+
+    .about, .service, .menu, .chefs, .reservation, .gallery, .testimonials {
+        text-align: center;
+    }
+    .chefs-box {
+        margin-bottom: 20px;
+    }
+    .about-box h3::after {
+        display: none;
+    }
+    .about-image {
+        margin-top: 20px;
+    }
+    .service-box {
+        padding: 25px 19px;
+        margin: 0 80px 20px;
+    }
+    .menu-list li {
+        padding: 0 12px;
+        font-size: 14px;
+    }
+    .form-control {
+        padding: 10px 12px;
+        margin: 6px 0;
+        font-size: 13px;
+    }
+    .reservation-button {
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+    .testimonials-box p {
+        font-size: 12px;
+        line-height: 22px;
+        padding-bottom: 15px;
+    }
+    .testimonials-box {
+        padding: 15px 20px;
+        margin: 0;
+    }
+    .testimonials-box h6 {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+    .top-footer h3 {
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+    .top-footer p {
+        font-size: 12px;
+        padding-bottom: 28px;
+    }
+    .opening-time {
+        padding-bottom: 28px;
+    }
+    .social {
+        padding-top: 28px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .banner .carousel-caption h1 {
+        font-size: 32px;
+        padding-bottom: 18px;
+    }
+    .header-logo {
+        width: 75%;
+    }
+    .navbar-toggler-icon {
+        width: 1.1em;
+        height: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .banner .carousel-caption h1 {
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 585px) {
+
+    .banner .carousel-caption h1 {
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+    .banner-button {
+        font-size: 9px;
+        padding: 8px 12px;
+    }
+    
+}
+
+@media only screen and (max-width: 575px) {
+
+    .menu-box {
+        margin: 0 50px 18px;
+    }
+    .menu-list li {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    .gallery-box {
+        margin: 0 50px 18px;
+    }
+    .top-footer h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .opening-time {
+        padding-bottom: 28px;
+        padding-top: 10px;
+    }
+    .navbar-light .navbar-nav .nav-link.active {
+        font-size: 11px;
+        padding: 4px 5px;
+    }
+    }
+
+    @media only screen and (max-width: 545px) {
+
+        .banner .carousel-caption h1 {
+            font-size: 24px;
+            padding-bottom: 14px;
+        }
+        .banner-button {
+            font-size: 8px;
+            padding: 6px 10px;
+        }
+        .banner .carousel-indicators [data-bs-target] {
+            width: 10px;
+            height: 10px;
+        }
+        .about-headings h4, .service-headings h4, .menu-headings h4, .chefs-headings h4, .reservation-headings h4, .gallery-headings h4, .testimonials-headings h4 {
+            font-size: 15px;
+            padding: 17px 25px;
+        }
+        .about-headings, .service-headings, .menu-headings, .chefs-headings, .reservation-headings, .gallery-headings, .testimonials-headings {
+            padding-bottom: 40px;
+        }
+        .about-box h3 {
+            font-size: 24px;
+            padding-bottom: 18px;
+        }
+    }
+    @media only screen and (max-width: 505px) {
+
+        .banner .carousel-caption h1 {
+            font-size: 22px;
+            padding-bottom: 14px;
+        }
+        .banner-button {
+            font-size: 7px;
+            padding: 6px 10px;
+        }
+        .header-logo {
+            width: 50%;
+        }
+        .navbar-toggler-icon {
+            width: 1em;
+            height: 1.2em;
+        }
+        .about-headings h4, .service-headings h4, .menu-headings h4, .chefs-headings h4, .reservation-headings h4, .gallery-headings h4, .testimonials-headings h4 {
+            font-size: 14px;
+            padding: 14px 20px;
+        }
+        .about-box h3 {
+            font-size: 22px;
+            padding-bottom: 12px;
+        }
+        .menu-list li {
+            padding: 0 8px;
+            font-size: 11px;
+        }
+        .form-control {
+            padding: 10px 12px;
+            margin: 4px 0;
+            font-size: 12px;
+        }
+        .reservation-button {
+            font-size: 11px;
+            padding: 8px 22px;
+        }
+        .testimonials-box p {
+            font-size: 11px;
+            line-height: 21px;
+            padding-bottom: 12px;
+        }
+        .testimonials-box h6 {
+            padding-top: 12px;
+            font-size: 12px;
+        }
+        .top-footer h3 {
+            font-size: 14px;
+            padding-bottom: 10px;
+        }
+        .top-footer p {
+            font-size: 11px;
+            padding-bottom: 28px;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+
+        .banner .carousel-caption {
+            right: 5%;
+            left: 5%;
+        }
+}
+
+@media only screen and (max-width: 420px) {
+
+    .banner .carousel-caption h1 {
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    .banner-button {
+        display: none;
+    }
+    .menu-list li {
+        padding: 0 4px;
+        font-size: 10px;
+    }
+    .about-headings h4, .service-headings h4, .menu-headings h4, .chefs-headings h4, .reservation-headings h4, .gallery-headings h4, .testimonials-headings h4 {
+        font-size: 12px;
+        padding: 12px 18px;
+    }
+    .about-headings, .service-headings, .menu-headings, .chefs-headings, .reservation-headings, .gallery-headings, .testimonials-headings {
+        padding-bottom: 28px;
+    }
+    .about-box h3 {
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+}
+@media only screen and (max-width: 380px) {
+
+    .banner .carousel-caption {
+        right: 4%;
+        left: 4%;
+    }
+    .header-logo {
+        width: 45%;
+    }
+    .navbar-toggler-icon {
+        width: 0.8em;
+        height: 1em;
+    }
+    .banner .carousel-caption h1 {
+        font-size: 18px;
+        padding-bottom: 0;
+    }
+    .menu-list {
+        padding-bottom: 15px;
+    }
+    .menu-list li {
+        padding: 0 4px;
+        font-size: 9px;
+    }
+    .service-box {
+        padding: 25px 19px;
+        margin: 0 50px 20px;
+    }
+}
+@media only screen and (max-width: 340px) {
+
+    .banner .carousel-caption {
+        right: 2%;
+        left: 2%;
+    }
+    .header-logo {
+        width: 40%;
+    }
+    .navbar-toggler-icon {
+        width: 0.6em;
+        height: 0.8em;
+    }
+    .banner .carousel-caption h1 {
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+    .menu-list {
+        padding-bottom: 12px;
+    }
+    .menu-box {
+        margin: 0 20px 18px;
+    }
+    .gallery-box {
+        margin: 0 20px 18px;
+    }
+
+}
